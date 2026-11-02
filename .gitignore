@@ -1,0 +1,56 @@
+# ===== Android / Gradle =====
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+.cxx/
+captures/
+.navigation/
+output.json
+
+# Signing keys — never commit
+*.keystore
+*.jks
+key.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+.externalNativeBuild/
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# ===== Unity =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+crashlytics-build.properties
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
